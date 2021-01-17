@@ -12,3 +12,6 @@ elif x % 5 == 0:
     print("Buzz", end=' ')
 else:
     print(x, end=' ')
+
+def test3(request):
+    return HttpResponse("This is page test3")
