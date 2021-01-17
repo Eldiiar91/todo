@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 
 def homepage(request):
-    return HttpResponse("This is my first page")
+    return render(request, "index.html")
 
 def x=int(input("Введите число: "))
 if x % 3 == 0 and x % 5 == 0:
